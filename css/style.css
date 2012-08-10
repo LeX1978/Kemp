@@ -1,0 +1,382 @@
+/* CSS Document */
+
+body
+{
+	background:#00395a;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bolder;
+	color:#FFF;
+}
+
+.top
+{
+	margin: 5px auto;
+	width: 1024px;
+	height: 197px;
+	background:url(../images/top.png);
+}
+
+/* Меню */
+#menu{
+	margin: 10px auto;
+	width:1024px;
+	height:61px;
+	background:url(../images/fm_menu_bg.jpg) repeat-x;
+}
+	#menu ul{
+		width:800px;
+		margin:0 auto;
+		list-style:none;
+	}
+		#menu li{
+			list-style:none;
+			display:block;
+			float:left;
+			font-size:11px;
+			font-weight:bold;
+			height:61px;
+			line-height:61px;
+			margin:0 5px;
+		}
+			#menu li a{
+				display:block;
+				float:left;
+				height:61px;				
+				color:#99a2b7;
+				text-decoration:none;
+				text-transform:uppercase;
+				padding:0 20px;				
+			}
+				#menu li a:hover{	
+					background:url(../images/fm_hover_bg.jpg) repeat-x;
+					color:#fff;
+				}
+					#menu li a:hover span, #menu li .current span{
+						background:url(../images/fm_hover_pointer.jpg) no-repeat top;
+						height:61px;
+						display:block;
+						float:left;
+					}
+					#menu li .current{
+						display:block;
+						float:left;
+						height:61px;				
+						background:url(../images/fm_hover_bg.jpg) repeat-x;
+						color:#fff;
+						text-decoration:none;
+						text-transform:uppercase;
+						padding:0 20px;		
+					}
+
+#top_menu
+{
+	margin: 10px auto;
+	width: 1024px;
+	height: 100px;
+}
+
+.search {
+    background-color: #A7AAAF;
+    left: 0px;
+	top: 10px;
+    position: relative;
+	width: 500px;
+	border: solid 1px #666;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.search table {
+    border-collapse: collapse;
+	position:relative;
+}
+search .inp {
+    border-color: #707070 #E5E5E5 #E5E5E5;
+    border-style: solid;
+    border-width: 1px;
+    color: #818181;
+    font: 12px Tahoma,Arial,sans-serif;
+    padding: 2px;
+    position: relative;
+    width: 100%;
+}
+table .inp {
+    color: #5C5C5C;
+    font: 12px Tahoma,Arial,sans-serif;
+    margin: 2px;
+    width: 100%;
+}
+.search td {
+    height: 48px;
+    padding: 0 15px 0 0;
+}
+.search .subm {
+    padding-right: 0;
+    text-align: center;
+    width: 66px;
+}
+.header_search_hd {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+    width: 93px;
+}
+
+.cart 
+{
+	clear:both;
+	position:relative;
+	width:430px;
+	height: 48px;
+	top: -40px;
+	left: 590px;
+	color:#FFF;
+	font-weight:bolder;
+	background:#A7AAAF;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+
+#about
+{
+	margin: 30px auto;
+	width:1024px;
+	height: auto;
+}
+
+#title
+{
+	margin : 5px auto;
+	width: 1024px;
+	height: 16px;
+	font-weight:bolder;
+	font-size: 17px;
+}
+
+#mcontent
+{
+	margin: 0 auto;
+	width: 1024px;
+	height: 100%;
+	background: #809cad;
+}
+
+#mcontento
+{
+	position:relative;
+	margin: 0 auto;
+	width: 650px;
+	height: 450px;
+	background: #809cad;
+}
+
+#mtext
+{
+	margin-top: 0px;
+	margin-left: 20px;
+	width: 975px;
+	padding: 11px;
+}
+
+#blok
+{
+	margin: -30px auto 0 auto;
+	width: 1024px;
+	height: auto;
+}
+
+
+/*-------------- Основная часть --------------------------------*/
+#content 
+{
+	margin: 15px auto;
+	width: 1024px;
+}
+
+#main
+{
+	width: 770px;
+	height:auto;
+	margin-top: 0px;
+	margin-left: 20px;
+}
+
+#shopmenu 
+{
+	width: 230px;
+	background: #00395a;
+}
+
+#shopmenu .name 
+{
+	text-align:left; color:#FFF;
+	text-shadow:inherit; 
+	padding:4px 10px 5px; background: url(../images/menu-name.gif) top no-repeat; width:209px; margin:0 auto;
+}
+
+.menu_list {	
+	width: 230px;
+}
+.menu_head {
+	padding: 5px 10px;
+	cursor: pointer;
+	position: relative;
+	margin:1px;
+    font-weight:bold;
+    /*background: #333 url(../images/left.png) center right no-repeat;*/
+	color:#fff;
+}
+.menu_body {
+	display:none;
+}
+.menu_body a{
+  display:block;
+  color:#FFF;
+  /*background-color:#999;*/
+  padding-left:10px;
+  font-weight:bold;
+  text-decoration:none;
+}
+.menu_body a:hover{
+  color: #333;
+  text-decoration:underline;
+}
+
+
+#pagename 
+{
+	color: #FFF;
+	font-size: 17px;
+	font-weight: bold;
+	margin: 0 0 0 0;
+	padding: 0px 0px 5px 0px;
+	text-transform: uppercase;
+}
+
+.text2 
+{
+	color: #494949;
+}
+
+.tie 
+{
+	color:#FFFFFF;
+	font-weight:bold;
+	background: #809cad;
+}
+.tie .tie-indent 
+{
+	padding: 11px;
+}
+.katalog_table
+{
+	border-collapse: collapse;
+    font-size: 12px;
+    text-align: left;
+	color:#FFFFFF
+}
+
+.katalog_table th {
+    color: #FFF;
+    font-size: 13px;
+    font-weight: normal;
+	font-weight:bolder;
+    padding: 8px;
+}
+.katalog_table td {
+    border-top: 1px solid #00395a;
+    color: #FFF;
+    padding: 8px;
+}
+.katalog_table tbody tr:hover td {
+    background: none repeat scroll 0 0 #D0DAFD;
+	color:#00395a;
+}
+.katalog_table tbody tr:hover a {
+	color:#00395a;
+}
+
+.cart_table
+{
+	border-collapse: collapse;
+    font-family: "Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+    font-size: 12px;
+    text-align: left;
+}
+
+.cart_table th {
+    background: #00395a;
+    padding: 8px;
+}
+.cart_table td {
+    border-top: 1px solid #00395a;
+    padding: 8px;
+}
+.cart_table tbody tr:hover td {
+    background: none repeat scroll 0 0 #D0DAFD;
+	color: #00395a;
+}
+
+fieldset 
+{
+background: #A7AAAF;
+padding: 15px 20px 30px 20px;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
+
+legend 
+{
+border: solid 1px #ECEAEA;
+padding: 10px 20px;
+color: #FFFFFF;
+margin-bottom: 15px;
+font-weight: bold;
+background: #00395a;
+}
+
+label.inputLabel 
+{
+width: 13em;
+float: left;
+padding-left: 10px;
+margin: 5px 0;
+padding-right: 10px;
+}
+
+/*--------------------------------------------------------------*/
+  
+/*---------------------- Футер ---------------------------------*/
+#footer 
+{
+	width:1024px;
+	margin: 20px auto;
+	background: #809cad;
+}
+.fright 
+{
+	float: right;
+	margin-right: 20px;
+}
+#footer .menu 
+{
+	padding: 0 0 0 17px;
+}
+#footer .menu a 
+{
+	text-decoration: none;
+	color: #00395a;
+}
+#footer .menu a:hover
+{
+	color: red;
+}
+#footer a 
+{
+	color: #909090;
+	text-decoration: none;
+}

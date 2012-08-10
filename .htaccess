@@ -1,0 +1,25 @@
+AddDefaultCharset utf-8
+php_value register_globals off
+php_value upload_max_filesize 100M
+php_value post_max_size 150M
+php_value max_execution_time 0
+php_value session.gc_maxlifetime 21600
+Options +FollowSymlinks
+RewriteEngine on
+RewriteBase /
+RewriteRule ^.htaccess$ - [F]
+RewriteRule ^page/(.*)/(.*)/(.*)/(.*)/$ /main.php?page=$1&id=$2&m=$3&katalog=$4
+RewriteRule ^pagef/(.*)/(.*)/(.*)/$ /main.php?page=$1&m=$2&katalog=$3
+RewriteRule ^cart/(.*)/$ /main.php?page=cart&katalog=$1
+RewriteRule ^katalog/(.*)/(.*)/(.*)/(.*)/$ /main.php?page=m&id=$1&num=$2&ko=$3&katalog=$4
+RewriteRule ^model/(.*)/(.*)/(.*)/(.*)/(.*)/$ /main.php?page=k&id=$1&num=$2&ko=$3&mo=$4&katalog=$5
+RewriteRule ^product/(.*)/(.*)/(.*)/(.*)/(.*)/$ /main.php?page=p&id=$1&num=$2&ko=$3&katalog=$4&mo=$5
+RewriteRule ^kategoriya/(.*)/(.*)/(.*)/(.*)/$ /main.php?page=kp&id=$1&num=$2&ko=$3&katalog=$4
+RewriteRule ^gidravlika/$ /main.php?page=s&id=2&m=2&katalog=1
+RewriteRule ^robots/$ /main.php?page=s&id=2&m=2&katalog=2
+RewriteRule ^ant/$ /main.php?page=s&id=2&m=2&katalog=3
+RewriteRule ^train/$ /main.php?page=s&id=2&m=2&katalog=4
+
+
+
+
