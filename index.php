@@ -1,5 +1,5 @@
 <?php
-
+  echo phpinfo();
 	//Подключаем нужные библиотеки
 	include_once($_SERVER['DOCUMENT_ROOT'].'/class/Main.php');
 	session_start(); 
