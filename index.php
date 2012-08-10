@@ -1,6 +1,5 @@
 <?php
 
-  echo 'test<br>';
 	//Подключаем нужные библиотеки
 	include_once($_SERVER['DOCUMENT_ROOT'].'/class/Main.php');
 	session_start(); 
